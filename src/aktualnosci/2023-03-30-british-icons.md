@@ -2,11 +2,11 @@
 title: "British Icons"
 date: "2023-03-30"
 zajawka: "Zapraszamy do wzięcia udziału w wyjątkowym konkursie językowym „British Icons”, organizowanym przez naszą szkołę w ramach wydarzenia „The Royal Weekend”. Konkurs adresowany jest do uczniów, którzy chcieliby…"
-obraz: "2023/03/Screenshot-2023-03-30-at-10.17.54-1024x477.png"
+obraz: "2023/03/Screenshot-2023-03-30-at-10.17.54-1024x477.webp"
 obrazW: 1024
 obrazH: 477
 obrazAlt: "British Icons"
-obrazMaly: "2023/03/Screenshot-2023-03-30-at-10.17.54-768x358.png"
+obrazMaly: "2023/03/Screenshot-2023-03-30-at-10.17.54-768x358.webp"
 obrazMalyW: 768
 obrazMalyH: 358
 ---

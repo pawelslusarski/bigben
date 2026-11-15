@@ -2,11 +2,11 @@
 title: "Summer Chitchat Online"
 date: "2026-05-22"
 zajawka: "Urlop, wyjazdy i błogi relaks? Wcale nie musisz z tego rezygnować! Zapraszamy na ̨ – stworzone specjalnie dla ł̇ ł, którzy chcą połączyć letni luz z pożytecznym rozwojem. Wakacyjna ́́ ł : Łączysz się z nami…"
-obraz: "2026/05/Summer-e1779435614890.png"
+obraz: "2026/05/Summer-e1779435614890.webp"
 obrazW: 1200
 obrazH: 571
 obrazAlt: "Summer Chitchat Online"
-obrazMaly: "2026/05/Summer-e1779435614890-768x365.png"
+obrazMaly: "2026/05/Summer-e1779435614890-768x365.webp"
 obrazMalyW: 768
 obrazMalyH: 365
 ---

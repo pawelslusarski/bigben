@@ -2,11 +2,11 @@
 title: "Grafik zajęć na tydzień 24-28 maja 2021"
 date: "2021-05-23"
 zajawka: "W dniach 24-28 maja 2021 na zajęcia stacjonarne zapraszamy następujące grupy`: 24.05.2021: Juniors 10: 18.15-19.00 ML Juniors 12: 17.20-18.05 ML Juniors 11: 16.25-17.10 MPS Teens A2: 18.15-19.15 AS 25.05.2021…"
-obraz: "2021/05/147.jpg"
+obraz: "2021/05/147.webp"
 obrazW: 1200
 obrazH: 627
 obrazAlt: "Grafik zajęć na tydzień 24-28 maja 2021"
-obrazMaly: "2021/05/147-768x401.jpg"
+obrazMaly: "2021/05/147-768x401.webp"
 obrazMalyW: 768
 obrazMalyH: 401
 ---

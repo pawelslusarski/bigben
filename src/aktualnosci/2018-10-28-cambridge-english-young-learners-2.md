@@ -2,11 +2,11 @@
 title: "ZAPISY – Cambridge English Young Learners"
 date: "2018-10-28"
 zajawka: "Jesteśmy jedyną szkołą językową w Kutnie, która przygotowała uczniów i zorganizowała egzamin dla dzieci Cambridge English Young Learners. Rozpoczynamy nabór do nowych grup egzaminacyjnych. Cambridge English…"
-obraz: "2018/02/Zrzut-ekranu-2017-10-29-14.53.18-1024x545.png"
+obraz: "2018/02/Zrzut-ekranu-2017-10-29-14.53.18-1024x545.webp"
 obrazW: 1024
 obrazH: 545
 obrazAlt: "ZAPISY – Cambridge English Young Learners"
-obrazMaly: "2018/02/Zrzut-ekranu-2017-10-29-14.53.18-768x409.png"
+obrazMaly: "2018/02/Zrzut-ekranu-2017-10-29-14.53.18-768x409.webp"
 obrazMalyW: 768
 obrazMalyH: 409
 ---

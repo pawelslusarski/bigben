@@ -2,11 +2,11 @@
 title: "The Royal Weekend"
 date: "2023-03-30"
 zajawka: "W dzień koronacji Karola III będziemy świętować dzień języka angielskiego i kultury brytyjskiej. Zapraszamy wszystkich do wspólnej zabawy na królewskim przyjęciu! Program uroczystości: 10-12: the Royal Party-…"
-obraz: "2023/03/TheRoyalWeekendFB-1-1024x430.jpeg"
+obraz: "2023/03/TheRoyalWeekendFB-1-1024x430.webp"
 obrazW: 1024
 obrazH: 430
 obrazAlt: "The Royal Weekend"
-obrazMaly: "2023/03/TheRoyalWeekendFB-1-768x322.jpeg"
+obrazMaly: "2023/03/TheRoyalWeekendFB-1-768x322.webp"
 obrazMalyW: 768
 obrazMalyH: 322
 ---

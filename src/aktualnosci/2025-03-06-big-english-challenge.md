@@ -2,11 +2,11 @@
 title: "Big English Challenge"
 date: "2025-03-06"
 zajawka: "Zapraszamy młodzież z grup Juniors 12, Teens A2, B1, B2 oraz z grup egzaminacyjnych do udziału w konkursie j. angielskiego Big English Challenge. Finał konkursu odbędzie się 12 kwietnia 2025 w godz. 10-12.…"
-obraz: "2025/03/Screenshot-2025-03-06-at-12.23.04-1024x786.png"
+obraz: "2025/03/Screenshot-2025-03-06-at-12.23.04-1024x786.webp"
 obrazW: 1024
 obrazH: 786
 obrazAlt: "Big English Challenge"
-obrazMaly: "2025/03/Screenshot-2025-03-06-at-12.23.04-768x590.png"
+obrazMaly: "2025/03/Screenshot-2025-03-06-at-12.23.04-768x590.webp"
 obrazMalyW: 768
 obrazMalyH: 590
 ---

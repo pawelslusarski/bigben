@@ -5,7 +5,7 @@ zajawka: "Kurs Chitchat to wyjątkowy kurs konwersacyjny, który rozwija umieję
 obrazAlt: "Chitchat- kurs konwersacyjny dla dorosłych i młodzieży"
 ---
 
-![](/media/2025/06/Zrzut-ekranu-2025-06-5-o-12.52.31.png)Kurs Chitchat to wyjątkowy kurs konwersacyjny, który rozwija umiejętność swobodnej komunikacji, wzbogaca słownictwo i kruszy bariery językowe. Inspirujące materiały zachęcają do żywej dyskusji, a kamera atmosfera sprzyja efektywności zajęć. Chitchat to:
+![](/media/2025/06/Zrzut-ekranu-2025-06-5-o-12.52.31.webp)Kurs Chitchat to wyjątkowy kurs konwersacyjny, który rozwija umiejętność swobodnej komunikacji, wzbogaca słownictwo i kruszy bariery językowe. Inspirujące materiały zachęcają do żywej dyskusji, a kamera atmosfera sprzyja efektywności zajęć. Chitchat to:
 
 – zajęcia w grupach do 6-ciu osób
 

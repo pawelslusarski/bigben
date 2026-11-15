@@ -2,11 +2,11 @@
 title: "Kurs językowy czy apka w telefonie?"
 date: "2025-07-07"
 zajawka: "W dobie obfitości różnorodnych darmowych aplikacji, programów, filmików instruktażowych na YT oraz coraz powszechniejszych narzędzi wykorzystujących AI, może pojawić się pytanie czy kurs językowy nadal ma…"
-obraz: "2024/08/4_1.png"
+obraz: "2024/08/4_1.webp"
 obrazW: 1512
 obrazH: 788
 obrazAlt: "Kurs językowy czy apka w telefonie?"
-obrazMaly: "2024/08/4_1-768x400.png"
+obrazMaly: "2024/08/4_1-768x400.webp"
 obrazMalyW: 768
 obrazMalyH: 400
 ---

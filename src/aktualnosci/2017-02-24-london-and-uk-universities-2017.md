@@ -2,11 +2,11 @@
 title: "London and UK universities 2017"
 date: "2017-02-24"
 zajawka: "Wakacyjna propozycja dla młodzieży 13-18 lat. Obóz językowy w Wielkiej Brytanii: Londyn i miasta uniwersyteckie 08.08-16.08.2017 Bardzo ciekawy program turystyczny: zwiedzanie Londynu, dwóch najstarszych…"
-obraz: "2017/02/16835870_1408121015912761_5562964184417092505_o.jpg"
+obraz: "2017/02/16835870_1408121015912761_5562964184417092505_o.webp"
 obrazW: 1585
 obrazH: 1430
 obrazAlt: "London and UK universities 2017"
-obrazMaly: "2017/02/16835870_1408121015912761_5562964184417092505_o-768x693.jpg"
+obrazMaly: "2017/02/16835870_1408121015912761_5562964184417092505_o-768x693.webp"
 obrazMalyW: 768
 obrazMalyH: 693
 ---

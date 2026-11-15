@@ -2,11 +2,11 @@
 title: "Kurs stacjonarny czy online?"
 date: "2026-08-28"
 zajawka: "Choć program kursu i materiały są identyczne, sposób pracy w obydwu wariantach zasadniczo się różni. W trakcie kursu stacjonarnego zajęcia odbywają się w szkole, pod bezpośrednim nadzorem lektora. Kursanci…"
-obraz: "2024/08/3_1.png"
+obraz: "2024/08/3_1.webp"
 obrazW: 1512
 obrazH: 788
 obrazAlt: "Kurs stacjonarny czy online?"
-obrazMaly: "2024/08/3_1-768x400.png"
+obrazMaly: "2024/08/3_1-768x400.webp"
 obrazMalyW: 768
 obrazMalyH: 400
 ---

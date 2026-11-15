@@ -2,11 +2,11 @@
 title: "London #Must-see"
 date: "2023-01-14"
 zajawka: "Letni obóz dla młodzieży w wieku 13-18 lat w terminie 27.06-05.07.2023 Cena: 2990 PLN +120 GBP Organizator: biuro podróży ATAS sp z o.o. Obóz językowy w Londynie dla osób, które chcą rozwinąć…"
-obraz: "2023/01/Screenshot-2023-01-14-at-18.29.47-1024x954.png"
+obraz: "2023/01/Screenshot-2023-01-14-at-18.29.47-1024x954.webp"
 obrazW: 1024
 obrazH: 954
 obrazAlt: "London #Must-see"
-obrazMaly: "2023/01/Screenshot-2023-01-14-at-18.29.47-768x715.png"
+obrazMaly: "2023/01/Screenshot-2023-01-14-at-18.29.47-768x715.webp"
 obrazMalyW: 768
 obrazMalyH: 715
 ---

@@ -2,11 +2,11 @@
 title: "Grafik zajęć od 31 maja 2021"
 date: "2021-05-28"
 zajawka: "Od 31 maja 2021 zapraszamy wszystkie grupy hybrydowe na zajęcia stacjonarne w klasach. Dołożymy wszelkich starań aby nauka stacjonarna była bezpieczna dla Państwa dzieci. W czasie przerw sale będą wietrzone i…"
-obraz: "2021/05/School_Teachers_Encourage-class-participation_Article_1596_students-raising-hands-in-class_ts_78816800-3-1024x682.jpg"
+obraz: "2021/05/School_Teachers_Encourage-class-participation_Article_1596_students-raising-hands-in-class_ts_78816800-3-1024x682.webp"
 obrazW: 1024
 obrazH: 682
 obrazAlt: "Grafik zajęć od 31 maja 2021"
-obrazMaly: "2021/05/School_Teachers_Encourage-class-participation_Article_1596_students-raising-hands-in-class_ts_78816800-3-768x512.jpg"
+obrazMaly: "2021/05/School_Teachers_Encourage-class-participation_Article_1596_students-raising-hands-in-class_ts_78816800-3-768x512.webp"
 obrazMalyW: 768
 obrazMalyH: 512
 ---

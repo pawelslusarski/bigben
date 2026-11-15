@@ -10,8 +10,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/media");
 
-  // Adres zdjęcia z folderu mediów (poza repozytorium): {{ "2026/11/plik.jpg" | media }}
+  // Adres zdjęcia z folderu src/media: {{ "2026/11/plik.jpg" | media }}
   eleventyConfig.addFilter("media", (p) => (p ? `${site.media}/${String(p).replace(/^\/+/, "")}` : ""));
   eleventyConfig.addFilter("dataPL", (d) => {
     const x = new Date(d);

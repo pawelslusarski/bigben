@@ -4,7 +4,7 @@
   "opis": "Szkoła języka angielskiego Big Ben w Kutnie. Kursy dla dzieci, młodzieży i dorosłych, przygotowanie do egzaminów Cambridge, bezpłatny tydzień próbny.",
   "url": "https://bigben.edu.pl",
   "wersjaTestowa": false,
-  "media": "https://bigben.edu.pl/wp-content/uploads",
+  "media": "/media",
   "telefon": "+48 730 565 404",
   "telefonLink": "+48730565404",
   "email": "biuro@bigben.edu.pl",

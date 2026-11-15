@@ -2,11 +2,11 @@
 title: "Podłączenie online do zajęć stacjonarnych."
 date: "2021-12-02"
 zajawka: "Aby umożliwić uczniom przybywającym na kwarantannie udział w zajęciach stworzyliśmy możliwość zdalnego przyłączenia się do lekcji stacjonarnej. Linki do zajęć zostały dodane na platformie ActiveNow, z której…"
-obraz: "2021/12/online-kid.jpg"
+obraz: "2021/12/online-kid.webp"
 obrazW: 467
 obrazH: 447
 obrazAlt: "Podłączenie online do zajęć stacjonarnych."
-obrazMaly: "2021/12/online-kid.jpg"
+obrazMaly: "2021/12/online-kid.webp"
 obrazMalyW: 467
 obrazMalyH: 447
 ---

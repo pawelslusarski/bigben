@@ -23,8 +23,8 @@ npm run build    # gotowa strona trafia do folderu _site/
 title: "Zimowe warsztaty"
 date: "2026-12-01"
 zajawka: "Jedno–dwa zdania, które pokażą się na kafelku wpisu."
-obraz: "2026/12/warsztaty.jpg"
-obrazMaly: "2026/12/warsztaty-768x403.jpg"
+obraz: "2026/12/warsztaty.webp"
+obrazMaly: "2026/12/warsztaty-768x403.webp"
 ---
 
 Treść wpisu. **Pogrubienie**, [link](https://example.com), lista:
@@ -32,23 +32,23 @@ Treść wpisu. **Pogrubienie**, [link](https://example.com), lista:
 - punkt pierwszy
 - punkt drugi
 
-![Opis zdjęcia](/media/2026/12/zdjecie.jpg)
+![Opis zdjęcia](/media/2026/12/zdjecie.webp)
 ```
 
 `obraz` i `obrazMaly` są opcjonalne. `obrazMaly` to mniejsza wersja na kafelek (ok. 768 px szerokości); gdy jej nie ma, używany jest `obraz`.
 
 Sześć najnowszych wpisów pokazuje się automatycznie na stronie głównej.
 
-## Zdjęcia (poza repozytorium)
+## Zdjęcia
 
-Zdjęcia do wpisów i podstron nie leżą w repozytorium, tylko w osobnym folderze na serwerze. Jego adres ustawia się w jednym miejscu: `media` w pliku `src/_data/site.json`.
+Zdjęcia do wpisów i podstron leżą w projekcie, w folderze `src/media/ROK/MIESIĄC/` (np. `src/media/2026/12/warsztaty.webp`). Strona nie korzysta już z niczego, co zostało po WordPressie.
 
-- W nagłówku wpisu podajesz ścieżkę względem tego folderu: `obraz: "2026/12/plik.jpg"`.
-- W treści piszesz `/media/2026/12/plik.jpg` – przy budowaniu strona podmienia `/media` na właściwy adres.
+- W nagłówku wpisu podajesz ścieżkę względem `src/media`: `obraz: "2026/12/plik.webp"`.
+- W treści piszesz `/media/2026/12/plik.webp`.
 
-Obecnie `media` wskazuje na dotychczasowy folder WordPressa (`https://bigben.edu.pl/wp-content/uploads`), więc wszystkie stare zdjęcia działają bez kopiowania. **Tego folderu nie wolno usunąć przy wyłączaniu WordPressa** – albo zostaje na miejscu, albo trzeba go przenieść i zmienić `media`.
+Przed dodaniem zdjęcia zmniejsz je do najwyżej 1600 px szerokości (najlepiej w formacie WebP lub JPG); na kafelek wpisu wystarcza wersja 768 px (`obrazMaly`).
 
-W repozytorium (`src/img/`) są tylko elementy samego szablonu: logo, dwa banery, cztery kafle, znak Cambridge.
+W `src/img/` są elementy samego szablonu: logo, dwa banery, cztery kafle, znak Cambridge.
 
 ## Co gdzie jest
 
@@ -72,8 +72,6 @@ Plik `.github/workflows/deploy.yml` buduje stronę i wysyła folder `_site/` prz
 ### Wersja testowa a właściwa
 
 Strona jest ustawiona jako właściwa: w `src/_data/site.json` jest `"url": "https://bigben.edu.pl"` i `"wersjaTestowa": false`. Ustawienie `"wersjaTestowa": true` dodaje znacznik `noindex` i blokadę w `robots.txt` – używaj go tylko na domenie testowej, nigdy na bigben.edu.pl.
-
-Zdjęcia do wpisów są pobierane z `https://bigben.edu.pl/wp-content/uploads`, więc w katalogu strony na serwerze musi leżeć folder `wp-content/uploads` skopiowany z dawnego WordPressa.
 
 Plik `.htaccess` jest generowany przy budowaniu (z `src/htaccess.njk`): wymusza HTTPS, ustawia nagłówki bezpieczeństwa i pamięć podręczną oraz przekierowuje stare adresy WordPressa na nowe (kod 301).
 

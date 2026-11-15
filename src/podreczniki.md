@@ -7,7 +7,7 @@ opis: "Podręczniki do naszych kursów można zakupić poprzez współpracując�
 
 Podręczniki do naszych kursów można zakupić poprzez współpracującą z nami księgarnię internetową wydawnictwa Express Publishing, korzystając z kodu rabatowego: BIGBEN26.
 
-[![](/media/2026/08/Zrzut-ekranu-2026-08-29-o-16.33.36-1-724x1024.png)](https://eshop.egis.com.pl/the-flibets-1-podrecznik-papierowy-id-18161)
+[![](/media/2026/08/Zrzut-ekranu-2026-08-29-o-16.33.36-1-724x1024.webp)](https://eshop.egis.com.pl/the-flibets-1-podrecznik-papierowy-id-18161)
 
 [Mini Club 1 (poniedziałek) The Flibets 1 podręcznik](https://eshop.egis.com.pl/the-flibets-1-podrecznik-papierowy-id-18161)
 

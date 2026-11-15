@@ -2,11 +2,11 @@
 title: "Zajęcia stacjonarne Juniors i Teens"
 date: "2021-05-16"
 zajawka: "Od 17 maja 2021 wznawiamy zajęcia stacjonarne dla grup Juniors i Teens. Zajęcia będą odbywały się w systemie hybrydowym: jedna lekcja w tygodniu stacjonarnie, druga online. W dniach 17-21 maja 2021 na zajęcia…"
-obraz: "2021/05/Backpack-1024x671.jpg"
+obraz: "2021/05/Backpack-1024x671.webp"
 obrazW: 1024
 obrazH: 671
 obrazAlt: "Zajęcia stacjonarne Juniors i Teens"
-obrazMaly: "2021/05/Backpack-768x503.jpg"
+obrazMaly: "2021/05/Backpack-768x503.webp"
 obrazMalyW: 768
 obrazMalyH: 503
 ---

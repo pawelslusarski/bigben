@@ -17,7 +17,7 @@
 <meta property="og:title" content="{{ tytulStrony }}">
 <meta property="og:description" content="{{ opisStrony }}">
 <meta property="og:url" content="{{ page.url | absolutny }}">
-<meta property="og:image" content="{{ (obraz | media) if obraz else ('/img/baner-zapisy.webp' | absolutny) }}">
+<meta property="og:image" content="{{ (obraz | media | absolutny) if obraz else ('/img/baner-zapisy.webp' | absolutny) }}">
 <link rel="preload" href="/fonts/lato-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/roboto-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/style.css?v={{ wersja }}">

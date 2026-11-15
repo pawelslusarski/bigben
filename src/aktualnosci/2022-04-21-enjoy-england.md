@@ -2,11 +2,11 @@
 title: "Enjoy England!"
 date: "2022-04-21"
 zajawka: "Wakacyjny kurs języka angielskiego w Wielkiej Brytanii, połączony ze zwiedzaniem, zajęciami sportowymi i integracyjnymi, 12-17 lat, w terminie 11-18.07.2022. Szczegóły oferty: – zakwaterowanie, zajęcia…"
-obraz: "2022/04/york2.png"
+obraz: "2022/04/york2.webp"
 obrazW: 640
 obrazH: 360
 obrazAlt: "Enjoy England!"
-obrazMaly: "2022/04/york2.png"
+obrazMaly: "2022/04/york2.webp"
 obrazMalyW: 640
 obrazMalyH: 360
 ---

@@ -2,11 +2,11 @@
 title: "Jaki kurs wybrać?"
 date: "2026-08-27"
 zajawka: "W zależności od indywidualnych oczekiwań, proponujemy trzy rodzaje kursów językowych: – Kurs ogólny dla osób, którym zależy na kompleksowym podniesieniu poziomu umiejętności, ponieważ podczas takiego kursu…"
-obraz: "2024/08/2_1-1.png"
+obraz: "2024/08/2_1-1.webp"
 obrazW: 1512
 obrazH: 788
 obrazAlt: "Jaki kurs wybrać?"
-obrazMaly: "2024/08/2_1-1-768x400.png"
+obrazMaly: "2024/08/2_1-1-768x400.webp"
 obrazMalyW: 768
 obrazMalyH: 400
 ---

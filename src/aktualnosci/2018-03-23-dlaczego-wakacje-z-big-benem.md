@@ -2,11 +2,11 @@
 title: "Dlaczego wakacje z Big Benem?"
 date: "2018-03-23"
 zajawka: "Bazując na naszym wieloletnim doświadczeniu w organizowaniu wakacyjnych wyjazdów dla dzieci i młodzieży, chcielibyśmy zaproponować wyjazd inny niż dotychczasowe. W malowniczej scenerii hrabstwa Yorkshire w…"
-obraz: "2018/03/Wakacje2018-1024x672.jpg"
+obraz: "2018/03/Wakacje2018-1024x672.webp"
 obrazW: 1024
 obrazH: 672
 obrazAlt: "Dlaczego wakacje z Big Benem?"
-obrazMaly: "2018/03/Wakacje2018-768x504.jpg"
+obrazMaly: "2018/03/Wakacje2018-768x504.webp"
 obrazMalyW: 768
 obrazMalyH: 504
 ---

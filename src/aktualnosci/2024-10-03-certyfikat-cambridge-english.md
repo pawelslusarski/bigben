@@ -2,11 +2,11 @@
 title: "Certyfikat Cambridge English"
 date: "2024-10-03"
 zajawka: "Kursy z międzynarodowym certyfikatem to doskonały sposób sprawdzenia swoich umiejętności i inwestycja w przyszłość. Kursy B2 FIRST i C1 ADVANCED już ruszyły, a wkrótce rozpoczniemy nabór do grup dziecięcych…"
-obraz: "2024/10/Screenshot-2024-10-03-at-19.11.41.png"
+obraz: "2024/10/Screenshot-2024-10-03-at-19.11.41.webp"
 obrazW: 1032
 obrazH: 1456
 obrazAlt: "Certyfikat Cambridge English"
-obrazMaly: "2024/10/Screenshot-2024-10-03-at-19.11.41-768x1084.png"
+obrazMaly: "2024/10/Screenshot-2024-10-03-at-19.11.41-768x1084.webp"
 obrazMalyW: 768
 obrazMalyH: 1084
 ---

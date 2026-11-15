@@ -2,11 +2,11 @@
 title: "MALTA – wakacyjna szkoła języka angielskiego"
 date: "2015-02-01"
 zajawka: "WIEK UCZESTNIKÓW: 12 – 18 lat Nasz obóz łączy ze sobą letni wypoczynek z doskonaleniem znajomości języka angielskiego, który funkcjonuje tu na równi z maltańskim językiem urzędowym. Młodzież ma zarówno zajęcia…"
-obraz: "2015/02/10924155_870738002984401_3134719049247525214_o.jpg"
+obraz: "2015/02/10924155_870738002984401_3134719049247525214_o.webp"
 obrazW: 1480
 obrazH: 1443
 obrazAlt: "MALTA – wakacyjna szkoła języka angielskiego"
-obrazMaly: "2015/02/10924155_870738002984401_3134719049247525214_o-768x749.jpg"
+obrazMaly: "2015/02/10924155_870738002984401_3134719049247525214_o-768x749.webp"
 obrazMalyW: 768
 obrazMalyH: 749
 ---

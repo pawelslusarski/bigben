@@ -2,11 +2,11 @@
 title: "Egzamin IELTS"
 date: "2018-02-02"
 zajawka: "IELTS (International English Language Testing System) to najpopularniejszy w świecie test języka angielskiego, który umożliwia podjęcie nauki i pracy na całym świecie. Jest honorowany przez ponad 9 tys.…"
-obraz: "2017/11/Bigben_IELTS_KW.png"
+obraz: "2017/11/Bigben_IELTS_KW.webp"
 obrazW: 1161
 obrazH: 1000
 obrazAlt: "Egzamin IELTS"
-obrazMaly: "2017/11/Bigben_IELTS_KW-768x661.png"
+obrazMaly: "2017/11/Bigben_IELTS_KW-768x661.webp"
 obrazMalyW: 768
 obrazMalyH: 661
 ---

@@ -2,18 +2,18 @@
 title: "Sprzedaż podręczników"
 date: "2026-08-29"
 zajawka: "Podręczniki do naszych kursów można zakupić poprzez współpracującą z nami księgarnię internetową wydawnictwa Express Publishing, korzystając z kodu rabatowego: BIGBEN26. Mini Club 1 (poniedziałek) The Flibets…"
-obraz: "2025/09/Zrzut-ekranu-2025-09-7-o-13.44.26.png"
+obraz: "2025/09/Zrzut-ekranu-2025-09-7-o-13.44.26.webp"
 obrazW: 1150
 obrazH: 960
 obrazAlt: "Sprzedaż podręczników"
-obrazMaly: "2025/09/Zrzut-ekranu-2025-09-7-o-13.44.26-768x641.png"
+obrazMaly: "2025/09/Zrzut-ekranu-2025-09-7-o-13.44.26-768x641.webp"
 obrazMalyW: 768
 obrazMalyH: 641
 ---
 
 Podręczniki do naszych kursów można zakupić poprzez współpracującą z nami księgarnię internetową wydawnictwa Express Publishing, korzystając z kodu rabatowego: BIGBEN26.
 
-[![](/media/2026/08/Zrzut-ekranu-2026-08-29-o-16.33.36-1-724x1024.png)](https://eshop.egis.com.pl/the-flibets-1-podrecznik-papierowy-id-18161)
+[![](/media/2026/08/Zrzut-ekranu-2026-08-29-o-16.33.36-1-724x1024.webp)](https://eshop.egis.com.pl/the-flibets-1-podrecznik-papierowy-id-18161)
 
 [Mini Club 1 (poniedziałek) The Flibets 1 podręcznik](https://eshop.egis.com.pl/the-flibets-1-podrecznik-papierowy-id-18161)
 

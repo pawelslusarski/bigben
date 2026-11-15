@@ -2,11 +2,11 @@
 title: "KORONAWIRUS KOMUNIKAT"
 date: "2020-03-11"
 zajawka: "W związku z decyzją premiera nakazującą zamknięcie szkół i innych placówek oświatowych jesteśmy zmuszeni zawiesić zajęcia od czwartku 12 marca 2020 do odwołania. O wszelkich zmianach będziemy informować na…"
-obraz: "2020/03/KORONAWIRUS.jpg"
+obraz: "2020/03/KORONAWIRUS.webp"
 obrazW: 567
 obrazH: 567
 obrazAlt: "KORONAWIRUS KOMUNIKAT"
-obrazMaly: "2020/03/KORONAWIRUS.jpg"
+obrazMaly: "2020/03/KORONAWIRUS.webp"
 obrazMalyW: 567
 obrazMalyH: 567
 ---

@@ -2,11 +2,11 @@
 title: "Balaton 2013"
 date: "2013-03-09"
 zajawka: "Summer Camp at the sunny Balaton Lake Keszthely 13.07-23.07.2013 Zapraszamy dzieci i młodzież w wieku 9-15 lat do wzięcia udziału w letniej przygodzie językowej. Gwarantujemy aktywny wypoczynek połączony z…"
-obraz: "2013/03/WakacjeBalaton2013-1_www-992x1024.png"
+obraz: "2013/03/WakacjeBalaton2013-1_www-992x1024.webp"
 obrazW: 992
 obrazH: 1024
 obrazAlt: "Balaton 2013"
-obrazMaly: "2013/03/WakacjeBalaton2013-1_www-768x792.png"
+obrazMaly: "2013/03/WakacjeBalaton2013-1_www-768x792.webp"
 obrazMalyW: 768
 obrazMalyH: 792
 ---

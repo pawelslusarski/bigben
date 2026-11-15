@@ -2,11 +2,11 @@
 title: "Jak opłacić kurs?"
 date: "2026-08-28"
 zajawka: "Za kurs językowy można zapłacić na dwa sposoby: poprzez platformę ActiveNow lub przelewem bankowym na rachunek szkoły. Platforma oferuje możliwość opłat miesięcznych, dzieląc roczny koszt na 10 równych rat.…"
-obraz: "2025/08/Zrzut-ekranu-2025-08-21-o-15.27.30-1024x510.png"
+obraz: "2025/08/Zrzut-ekranu-2025-08-21-o-15.27.30-1024x510.webp"
 obrazW: 1024
 obrazH: 510
 obrazAlt: "Jak opłacić kurs?"
-obrazMaly: "2025/08/Zrzut-ekranu-2025-08-21-o-15.27.30-768x382.png"
+obrazMaly: "2025/08/Zrzut-ekranu-2025-08-21-o-15.27.30-768x382.webp"
 obrazMalyW: 768
 obrazMalyH: 382
 ---

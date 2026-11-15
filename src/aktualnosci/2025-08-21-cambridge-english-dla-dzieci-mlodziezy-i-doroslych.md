@@ -2,11 +2,11 @@
 title: "Cambridge English dla dzieci, młodzieży i dorosłych."
 date: "2025-08-21"
 zajawka: "Cambridge English dla dzieci, młodzieży i dorosłych to kursy, które prowadzą do uzyskania międzynarodowego certyfikatu językowego, honorowanego przez uczelnie, instytucje i pracodawców na całym świecie.…"
-obraz: "2025/08/t1-1024x537.jpg"
+obraz: "2025/08/t1-1024x537.webp"
 obrazW: 1024
 obrazH: 537
 obrazAlt: "Cambridge English dla dzieci, młodzieży i dorosłych."
-obrazMaly: "2025/08/t1-768x403.jpg"
+obrazMaly: "2025/08/t1-768x403.webp"
 obrazMalyW: 768
 obrazMalyH: 403
 ---
