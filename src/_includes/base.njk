@@ -55,13 +55,8 @@
 </main>
 {%- if mapa %}
 <section class="mapa" aria-label="Dojazd">
-  <div class="mapa__ramka" data-mapa="{{ site.mapaEmbed }}">
-    <div class="mapa__karta">
-      <strong>BigBen – Prywatna Szkoła Języków Obcych</strong>
-      <span>{{ site.ulica }}, {{ site.kod }} {{ site.miasto }}</span>
-      <a href="{{ site.mapaLink }}" rel="noopener">Otwórz w Mapach Google</a>
-    </div>
-    <button class="przycisk przycisk--duzy" type="button">Pokaż mapę</button>
+  <div class="mapa__ramka">
+    <iframe src="{{ site.mapaEmbed }}" title="Mapa dojazdu do szkoły Big Ben" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
   </div>
 </section>
 {%- endif %}

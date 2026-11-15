@@ -29,17 +29,3 @@ if (tor) {
     tor.addEventListener("focusin", zatrzymaj, { once: true });
   }
 }
-
-// Mapa Google ładuje się dopiero po kliknięciu (szybsza strona, mniej ciasteczek)
-const mapa = document.querySelector("[data-mapa]");
-if (mapa) {
-  mapa.querySelector("button").addEventListener("click", () => {
-    const ramka = document.createElement("iframe");
-    ramka.src = mapa.dataset.mapa;
-    ramka.title = "Mapa dojazdu do szkoły Big Ben";
-    ramka.loading = "lazy";
-    ramka.referrerPolicy = "no-referrer-when-downgrade";
-    mapa.querySelector("button").remove();
-    mapa.append(ramka);
-  });
-}
