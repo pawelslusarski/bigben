@@ -25,17 +25,11 @@ RewriteRule ^(wp-login\.php|xmlrpc\.php|wp-admin|wp-json|wp-includes) - [F,L]
 RewriteRule ^{{ p.z | replace("/", "", 1) | replace(".", "\\.") }}?$ {{ p.do }} [R=301,L]
 {%- endfor %}
 
-# Nagłówki bezpieczeństwa i pamięć podręczna – działają tylko w środowisku Apache
-<IfModule mod_headers.c>
-Header always set X-Content-Type-Options "nosniff"
-Header always set X-Frame-Options "SAMEORIGIN"
-Header always set Referrer-Policy "strict-origin-when-cross-origin"
-Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
-Header always set Strict-Transport-Security "max-age=31536000"
-<FilesMatch "\.(woff2|webp|svg|png|jpe?g)$">
-Header set Cache-Control "public, max-age=31536000, immutable"
-</FilesMatch>
-<FilesMatch "\.(css|js)$">
-Header set Cache-Control "public, max-age=604800"
-</FilesMatch>
-</IfModule>
+# Nagłówki. Serwer home.pl stosuje je do wszystkich plików (nie rozróżnia typów przez FilesMatch),
+# dlatego pamięć podręczna jest krótka: zmiany na stronie widać najpóźniej po 5 minutach.
+Header set Cache-Control "public, max-age=300"
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+Header set Strict-Transport-Security "max-age=31536000"
