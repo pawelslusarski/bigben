@@ -71,9 +71,9 @@ Plik `.github/workflows/deploy.yml` buduje stronę i wysyła folder `_site/` prz
 
 ### Wersja testowa a właściwa
 
-Teraz strona jest ustawiona jako testowa pod adresem `https://icloudman.pl`: w `src/_data/site.json` jest `"url": "https://icloudman.pl"` i `"wersjaTestowa": true`. Dopóki `wersjaTestowa` ma wartość `true`, strona prosi wyszukiwarki, żeby jej nie indeksowały (znacznik `noindex` i blokada w `robots.txt`).
+Strona jest ustawiona jako właściwa: w `src/_data/site.json` jest `"url": "https://bigben.edu.pl"` i `"wersjaTestowa": false`. Ustawienie `"wersjaTestowa": true` dodaje znacznik `noindex` i blokadę w `robots.txt` – używaj go tylko na domenie testowej, nigdy na bigben.edu.pl.
 
-Przy przenosinach na właściwą domenę: ustaw `"url": "https://bigben.edu.pl"`, `"wersjaTestowa": false` i zmień sekret `FTP_DIR` na katalog właściwej domeny.
+Zdjęcia do wpisów są pobierane z `https://bigben.edu.pl/wp-content/uploads`, więc w katalogu strony na serwerze musi leżeć folder `wp-content/uploads` skopiowany z dawnego WordPressa.
 
 Plik `.htaccess` jest generowany przy budowaniu (z `src/htaccess.njk`): wymusza HTTPS, ustawia nagłówki bezpieczeństwa i pamięć podręczną oraz przekierowuje stare adresy WordPressa na nowe (kod 301).
 
