@@ -1,0 +1,15 @@
+---
+layout: base.njk
+---
+<article class="sekcja">
+  <p class="okruszki"><a href="/aktualnosci/">Aktualności</a> / {{ title }}</p>
+  <header class="tytul-sekcji"><h1>{{ title }}</h1></header>
+  <p class="wpis__meta"><time datetime="{{ page.date | dataISO }}">{{ page.date | dataPL }}</time></p>
+  {%- if obraz and not ukryjObraz %}
+  <img class="wpis__obraz" src="{{ obraz | media }}" alt="{{ obrazAlt or '' }}"{% if obrazW %} width="{{ obrazW }}" height="{{ obrazH }}"{% endif %}>
+  {%- endif %}
+  <div class="tresc">
+  {{ content | safe }}
+  </div>
+  <div class="srodek"><a class="przycisk przycisk--kontur" href="/aktualnosci/">Wszystkie aktualności</a></div>
+</article>

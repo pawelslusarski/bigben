@@ -1,0 +1,183 @@
+/* Big Ben – arkusz stylów. Kolory i odstępy ustawia się w :root. */
+@font-face{font-family:Lato;font-weight:400;font-display:swap;src:url(/fonts/lato-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Lato;font-weight:400;font-display:swap;src:url(/fonts/lato-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Lato;font-weight:700;font-display:swap;src:url(/fonts/lato-latin-ext-700-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Lato;font-weight:700;font-display:swap;src:url(/fonts/lato-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Roboto;font-weight:400;font-display:swap;src:url(/fonts/roboto-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Roboto;font-weight:400;font-display:swap;src:url(/fonts/roboto-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Roboto;font-weight:500;font-display:swap;src:url(/fonts/roboto-latin-ext-500-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Roboto;font-weight:500;font-display:swap;src:url(/fonts/roboto-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Roboto;font-weight:700;font-display:swap;src:url(/fonts/roboto-latin-ext-700-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Roboto;font-weight:700;font-display:swap;src:url(/fonts/roboto-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+:root{
+  --czerwony:#E30613; --czerwony-ciemny:#B8050F;
+  --tekst:#2D2D2D; --tekst-szary:#5F6168; --tytul-kafla:#4A4C52;
+  --tlo-strony:#F1F1F3; --tlo-karty:#F7F7F8; --linia:#E3E4E8; --stopka:#1F2024;
+  --szer:1280px; --bok:clamp(20px,5.6vw,72px);
+  --naglowki:Lato,"Helvetica Neue",Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--tlo-strony);color:var(--tekst);font:400 16px/1.6 Roboto,Helvetica,Arial,sans-serif}
+img{max-width:100%;height:auto}
+a{color:var(--tekst)}
+a:hover{color:var(--czerwony-ciemny)}
+:focus-visible{outline:3px solid var(--czerwony);outline-offset:2px}
+.pomin{position:absolute;left:-9999px}
+.pomin:focus{left:12px;top:12px;z-index:100;background:#fff;padding:12px 16px}
+.strona{max-width:var(--szer);margin:0 auto;background:#fff;box-shadow:0 0 24px rgba(20,22,30,.10);min-height:100vh;display:flex;flex-direction:column}
+main{flex:1}
+
+/* Nagłówek i menu */
+.naglowek{position:sticky;top:0;z-index:50;background:#fff;box-shadow:0 2px 8px rgba(20,22,30,.06);padding:12px 40px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 32px}
+.logo{display:flex;align-items:center}
+.logo img{height:52px;width:auto;display:block}
+.menu{display:flex;flex-wrap:wrap;align-items:center;gap:4px 28px;margin:0;padding:0;list-style:none;font-weight:700;font-size:15px}
+.menu>li{position:relative}
+.menu a{display:block;padding:12px 2px;text-decoration:none;border-bottom:2px solid transparent}
+.menu a[aria-current="page"],.menu a.aktywny{border-bottom-color:var(--czerwony)}
+.podmenu{display:none;position:absolute;left:-16px;top:100%;min-width:290px;margin:0;padding:8px 0;list-style:none;background:#fff;border-radius:6px;box-shadow:0 8px 24px rgba(20,22,30,.16);font-weight:500}
+.menu>li:hover>.podmenu,.menu>li:focus-within>.podmenu{display:block}
+.podmenu a{padding:10px 18px;border:0}
+.podmenu a:hover{background:var(--tlo-karty)}
+.przycisk{display:inline-block;background:var(--czerwony);color:#fff;font-weight:500;font-size:14px;line-height:1.3;padding:12px 20px;border-radius:4px;text-decoration:none;border:0;cursor:pointer}
+.przycisk:hover{background:var(--czerwony-ciemny);color:#fff}
+.przycisk--duzy{font-weight:700;font-size:15px;padding:13px 22px}
+.przycisk--kontur{background:transparent;color:var(--tekst);border:2px solid var(--tekst);font-weight:700;font-size:15px;padding:11px 26px}
+.przycisk--kontur:hover{background:var(--tekst);color:#fff}
+.menu-przelacznik{display:none;background:none;border:0;padding:10px;cursor:pointer}
+.menu-przelacznik svg{display:block}
+
+/* Baner (slajdy) */
+.baner{position:relative}
+.baner__tor{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.baner__tor::-webkit-scrollbar{display:none}
+.baner__slajd{flex:0 0 100%;scroll-snap-align:start}
+.baner__slajd img{width:100%;aspect-ratio:1600/853;object-fit:cover;display:block}
+.baner__kropki{position:absolute;left:0;right:0;bottom:18px;display:flex;justify-content:center;gap:10px}
+.baner__kropki button{width:8px;height:8px;border-radius:4px;border:0;padding:0;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.35);cursor:pointer;transition:width .2s}
+.baner__kropki button[aria-current="true"]{width:28px;background:var(--czerwony);box-shadow:none}
+
+/* Sekcje */
+.sekcja{padding:64px var(--bok)}
+.sekcja--ciasna{padding-top:40px}
+.tytul-sekcji{display:flex;flex-direction:column;align-items:center;gap:14px;margin:0 0 48px}
+.tytul-sekcji h1,.tytul-sekcji h2{margin:0;font:700 clamp(28px,3vw,36px)/1.15 var(--naglowki);text-align:center}
+.tytul-sekcji::after{content:"";width:min(520px,80%);height:4px;border-radius:2px;background:linear-gradient(90deg,var(--linia),var(--czerwony) 50%,var(--linia))}
+
+/* Kafle */
+.kafle{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;padding:64px var(--bok) 24px}
+.kafel{background:#fff;border:1px solid var(--linia);border-radius:6px;box-shadow:0 2px 10px rgba(20,22,30,.07);padding:18px 16px 16px;display:flex;flex-direction:column;align-items:center;gap:12px;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.kafel:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(20,22,30,.13)}
+.kafel__tytul{text-align:center;font:400 28px/1.1 var(--naglowki);color:var(--tytul-kafla)}
+.kafel__tytul::after{content:"";display:block;width:36px;height:3px;border-radius:2px;background:var(--czerwony);margin:12px auto 0}
+.kafel img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:3px;display:block}
+.kafel__opis{text-align:center;font-size:15px;font-weight:500;color:var(--tekst);padding:4px 0 2px}
+
+/* Dlaczego BigBen */
+.dlaczego{display:flex;flex-wrap:wrap;gap:40px 64px;align-items:center}
+.dlaczego ul{flex:2 1 420px;margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:22px}
+.dlaczego h3{margin:0 0 6px;font:700 22px/1.25 var(--naglowki)}
+.dlaczego p{margin:0;color:var(--tekst-szary)}
+.dlaczego__obrazy{flex:1 1 260px;display:flex;flex-direction:column;align-items:center;gap:28px}
+.dlaczego__obrazy img:first-child{width:min(260px,80%)}
+.dlaczego__obrazy img:last-child{width:min(320px,100%)}
+
+/* Karty wpisów */
+.wpisy{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:28px}
+.wpis-karta{background:var(--tlo-karty);border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
+.wpis-karta__obraz{display:block;position:relative;overflow:hidden;aspect-ratio:1024/534;background:#EEF0F4}
+.wpis-karta__obraz img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.wpis-karta__tresc{padding:22px 24px 26px;display:flex;flex-direction:column;gap:12px;flex:1}
+.wpis-karta h2,.wpis-karta h3{margin:0;font:700 21px/1.25 var(--naglowki)}
+.wpis-karta h2 a,.wpis-karta h3 a{text-decoration:none}
+.wpis-karta time{font-size:13px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--tekst-szary)}
+.wpis-karta p{margin:0;color:var(--tekst-szary);font-size:15px;line-height:1.65;flex:1}
+.wpis-karta .przycisk{align-self:flex-start;margin-top:4px}
+.srodek{display:flex;justify-content:center;margin-top:48px}
+.stronicowanie{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:48px}
+.stronicowanie a,.stronicowanie span{min-width:44px;padding:10px 14px;text-align:center;border-radius:4px;text-decoration:none;font-weight:700;border:1px solid var(--linia)}
+.stronicowanie span{background:var(--czerwony);border-color:var(--czerwony);color:#fff}
+
+/* Podstrony z treścią */
+.tresc{max-width:820px;margin:0 auto;font-size:17px;line-height:1.7}
+.tresc--szeroka{max-width:none}
+.tresc h2{font:700 26px/1.25 var(--naglowki);margin:1.8em 0 .6em}
+.tresc h3{font:700 21px/1.3 var(--naglowki);margin:1.6em 0 .5em}
+.tresc p,.tresc ul,.tresc ol{margin:0 0 1.1em}
+.tresc li{margin-bottom:.35em}
+.tresc img{display:block;margin:1.4em auto;border-radius:4px}
+.tresc a:not(.przycisk){color:var(--czerwony-ciemny);overflow-wrap:anywhere}
+.tresc blockquote{margin:1.4em 0;padding:4px 0 4px 20px;border-left:4px solid var(--czerwony);color:var(--tekst-szary)}
+.tresc table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}
+.tresc td,.tresc th{border:1px solid var(--linia);padding:8px 12px;text-align:left}
+.tresc iframe{width:100%;border:0}
+.wideo{aspect-ratio:16/9;margin:1.4em 0}
+.wideo iframe{height:100%}
+.wpis__meta{text-align:center;color:var(--tekst-szary);font-size:14px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;margin:-28px 0 36px}
+.wpis__obraz{display:block;margin:0 auto 36px;max-height:560px;width:auto;border-radius:6px}
+.okruszki{font-size:14px;color:var(--tekst-szary);margin:0 0 28px}
+.okruszki a{color:var(--tekst-szary)}
+.wezwanie{margin-top:48px;padding:28px 32px;background:var(--tlo-karty);border-radius:6px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px}
+.wezwanie p{margin:0;font:700 20px/1.3 var(--naglowki)}
+
+/* Lista kursów */
+.kursy-grupa{margin-bottom:48px}
+.kursy-grupa h2{font:700 24px/1.25 var(--naglowki);margin:0 0 18px;padding-bottom:10px;border-bottom:2px solid var(--linia)}
+.kursy-lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;margin:0;padding:0;list-style:none}
+.kursy-lista a{display:flex;flex-direction:column;gap:6px;height:100%;padding:20px 22px;border:1px solid var(--linia);border-radius:6px;text-decoration:none;box-shadow:0 2px 10px rgba(20,22,30,.05)}
+.kursy-lista a:hover{border-color:var(--czerwony)}
+.kursy-lista strong{font:700 19px/1.25 var(--naglowki)}
+.kursy-lista span{color:var(--tekst-szary);font-size:15px}
+
+/* Kontakt i mapa */
+.kontakt{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px}
+.kontakt div{padding:24px 26px;background:var(--tlo-karty);border-radius:6px}
+.kontakt h2{margin:0 0 8px;font:700 14px/1.3 Roboto,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--tekst-szary)}
+.kontakt p{margin:0;font-size:18px}
+.kontakt a{font-weight:700}
+.mapa{background:var(--tlo-strony);padding:10px}
+.mapa__ramka{position:relative;min-height:340px;background:#DCE9DD;border-radius:4px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.mapa__ramka iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapa__karta{position:absolute;left:20px;top:20px;z-index:1;background:#fff;border-radius:6px;box-shadow:0 2px 10px rgba(20,22,30,.18);padding:16px 18px;max-width:260px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.mapa__karta strong{font-size:15px}
+.mapa__karta span{color:var(--tekst-szary)}
+.mapa__karta a{font-weight:700;padding:8px 0 0}
+
+/* Stopka */
+.stopka{background:var(--stopka);color:#fff;padding:44px var(--bok);display:flex;flex-wrap:wrap;justify-content:space-between;gap:28px 56px;font-size:15px}
+.stopka address{font-style:normal;display:flex;flex-direction:column;gap:4px;color:#C6C8CE}
+.stopka strong{color:#fff}
+.stopka nav{display:flex;flex-direction:column}
+.stopka nav strong{padding-bottom:6px}
+.stopka a{color:#C6C8CE;padding:8px 0}
+.stopka address a{color:#fff;padding:6px 0 0}
+.stopka a:hover{color:#fff}
+
+@media (max-width:900px){
+  .naglowek{padding:10px 16px;gap:8px 10px}
+  .logo img{height:40px}
+  .naglowek>.przycisk{padding:11px 14px}
+  .kafle{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+  .kafel{padding:14px 10px 12px}
+  .kafel__tytul{font-size:22px}
+  .menu-przelacznik{display:block;order:3}
+  .naglowek>.przycisk{order:2;margin-left:auto}
+  .nawigacja{order:4;flex-basis:100%;display:none}
+  .nawigacja[data-otwarte]{display:block}
+  .menu{flex-direction:column;align-items:stretch;gap:0;padding-bottom:8px}
+  .menu a{padding:13px 4px;border-bottom:1px solid var(--linia)}
+  .menu a[aria-current="page"],.menu a.aktywny{border-bottom-color:var(--linia);color:var(--czerwony-ciemny)}
+  .podmenu{display:block;position:static;box-shadow:none;padding:0 0 0 16px;min-width:0}
+  .sekcja{padding-top:48px;padding-bottom:48px}
+  .kafle{padding-top:40px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.kafel,.baner__kropki button{transition:none}}
+@media print{.naglowek,.mapa,.baner,.stopka nav{display:none}.strona{box-shadow:none}}
+
+/* Galerie przeniesione z WordPressa */
+.tresc .gallery{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:1.4em 0}
+.tresc .gallery dl{margin:0}
+.tresc .gallery img{margin:0}
+.tresc .gallery br{display:none}

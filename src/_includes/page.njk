@@ -1,0 +1,15 @@
+---
+layout: base.njk
+---
+<article class="sekcja">
+  <header class="tytul-sekcji"><h1>{{ title }}</h1></header>
+  <div class="tresc{% if szeroka %} tresc--szeroka{% endif %}">
+  {{ content | safe }}
+  {%- if zapisy != false and tags and "kurs" in tags %}
+  <aside class="wezwanie">
+    <p>Pierwszy tydzień nauki jest bezpłatny.</p>
+    <a class="przycisk przycisk--duzy" href="/zapisy/">Zapisz się na kurs</a>
+  </aside>
+  {%- endif %}
+  </div>
+</article>

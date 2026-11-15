@@ -1,0 +1,38 @@
+{
+  "nazwa": "Big Ben – Szkoła Języka Angielskiego",
+  "nazwaPelna": "Prywatna Szkoła Języków Obcych Big Ben",
+  "opis": "Szkoła języka angielskiego Big Ben w Kutnie. Kursy dla dzieci, młodzieży i dorosłych, przygotowanie do egzaminów Cambridge, bezpłatny tydzień próbny.",
+  "url": "https://bigben.edu.pl",
+  "media": "https://bigben.edu.pl/wp-content/uploads",
+  "telefon": "+48 730 565 404",
+  "telefonLink": "+48730565404",
+  "email": "biuro@bigben.edu.pl",
+  "ulica": "ul. Dąbrowskiego 12",
+  "kod": "99-300",
+  "miasto": "Kutno",
+  "facebook": "https://www.facebook.com/BigbenSchool/",
+  "youtube": "https://www.youtube.com/user/BigbenKutno",
+  "zapisyEtykieta": "Zapisy’26",
+  "mapaEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19547.456252498807!2d19.346758539083574!3d52.23553597976131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471b9bc3b6c6c433%3A0xdde781ce9c550997!2sBigBen+-+Prywatna+Szko%C5%82a+J%C4%99zyk%C3%B3w+Obcych!5e0!3m2!1spl!2spl!4v1516885041423",
+  "mapaLink": "https://www.google.com/maps/search/?api=1&query=BigBen+Prywatna+Szko%C5%82a+J%C4%99zyk%C3%B3w+Obcych+Kutno",
+  "activenow": {
+    "szkola": "3071",
+    "kod": "06b54a88f94522843b5fefd3c51c0493",
+    "formularzZapisy": "6354",
+    "formularzEvents": "6355"
+  },
+  "menu": [
+    { "nazwa": "Strona główna", "url": "/" },
+    { "nazwa": "O nas", "url": "/o-nas/" },
+    { "nazwa": "Kursy", "url": "/kursy/", "podmenu": "kursy" },
+    { "nazwa": "Aktualności", "url": "/aktualnosci/" },
+    { "nazwa": "Podręczniki", "url": "/podreczniki/" },
+    { "nazwa": "Events", "url": "/events/" },
+    { "nazwa": "Kontakt", "url": "/kontakt/" }
+  ],
+  "dokumenty": [
+    { "nazwa": "Regulamin", "url": "/regulamin/" },
+    { "nazwa": "RODO", "url": "/rodo/" },
+    { "nazwa": "Polityka Ochrony Małoletnich", "url": "/polityka-ochrony-maloletnich/" }
+  ]
+}

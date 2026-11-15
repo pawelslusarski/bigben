@@ -1,0 +1,11 @@
+<article class="wpis-karta">
+  {%- if w.data.obraz %}
+  <a class="wpis-karta__obraz" href="{{ w.url }}" tabindex="-1" aria-hidden="true"><img src="{{ (w.data.obrazMaly or w.data.obraz) | media }}" alt="" loading="lazy"{% if w.data.obrazMalyW %} width="{{ w.data.obrazMalyW }}" height="{{ w.data.obrazMalyH }}"{% endif %}></a>
+  {%- endif %}
+  <div class="wpis-karta__tresc">
+    <time datetime="{{ w.date | dataISO }}">{{ w.date | dataPL }}</time>
+    <{{ poziom }}><a href="{{ w.url }}">{{ w.data.title }}</a></{{ poziom }}>
+    <p>{{ w.data.zajawka }}</p>
+    <a class="przycisk" href="{{ w.url }}" aria-label="Zobacz więcej: {{ w.data.title }}">Zobacz więcej</a>
+  </div>
+</article>

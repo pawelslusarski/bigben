@@ -1,0 +1,49 @@
+---
+layout: base.njk
+mapa: true
+---
+<section class="baner" aria-label="Baner" aria-roledescription="karuzela">
+  <div class="baner__tor" tabindex="0">
+    <a class="baner__slajd" href="/zapisy/"><img src="/img/baner-zapisy.webp" alt="Angielski bigben – zapisy online na www.bigben.edu.pl" width="1600" height="853" fetchpriority="high"></a>
+    <a class="baner__slajd" href="/kursy/cambridge-young-learners/"><img src="/img/baner-cambridge.webp" alt="Kursy dla dzieci z certyfikatem Cambridge" width="1600" height="851" loading="lazy"></a>
+  </div>
+  <div class="baner__kropki">
+    <button type="button" aria-label="Slajd 1" aria-current="true"></button>
+    <button type="button" aria-label="Slajd 2" aria-current="false"></button>
+  </div>
+</section>
+
+<section class="kafle" aria-label="Oferta">
+  <a class="kafel" href="/kursy/#dzieci"><span class="kafel__tytul">Dzieci</span><img src="/img/kafel-dzieci.webp" alt="" width="800" height="600" loading="lazy"><span class="kafel__opis">Angielski dla dzieci</span></a>
+  <a class="kafel" href="/kursy/#mlodziez"><span class="kafel__tytul">Młodzież</span><img src="/img/kafel-mlodziez.webp" alt="" width="800" height="600" loading="lazy"><span class="kafel__opis">Angielski dla młodzieży</span></a>
+  <a class="kafel" href="/kursy/#dorosli"><span class="kafel__tytul">Dorośli</span><img src="/img/kafel-dorosli.webp" alt="" width="800" height="600" loading="lazy"><span class="kafel__opis">Angielski dla dorosłych</span></a>
+  <a class="kafel" href="/events/"><span class="kafel__tytul">Wakacje</span><img src="/img/kafel-wakacje.webp" alt="" width="800" height="600" loading="lazy"><span class="kafel__opis">Wyjazdy językowe</span></a>
+</section>
+
+<section class="sekcja">
+  <header class="tytul-sekcji"><h1>Dlaczego BigBen?</h1></header>
+  <div class="dlaczego">
+    <ul>
+      <li><h3>Jesteśmy sprawdzeni.</h3><p>Istniejemy na rynku od ponad 20 lat. Mamy duże doświadczenie w organizowaniu kursów i prowadzeniu zajęć.</p></li>
+      <li><h3>Jesteśmy dynamiczni i nieustannie się rozwijamy.</h3><p>Każdy nowy rok szkolny to szersza oferta edukacyjna i coraz więcej kursantów.</p></li>
+      <li><h3>Jesteśmy wiarygodni.</h3><p>Zapewniamy bezpłatny próbny tydzień nauki, podczas którego można zapoznać się ze szkołą i metodami pracy przed podjęciem decyzji o zapisie.</p></li>
+      <li><h3>Budzimy zaufanie.</h3><p>Wysyłamy rodzicom raporty o postępach dzieci.</p></li>
+      <li><h3>Uczymy, ale nie nudzimy.</h3><p>Dysponujemy szkolną biblioteczką obfitującą w lektury w j. angielskim na każdy poziom. Urozmaicamy zajęcia, wykorzystując nowoczesne technologie. Regularnie korzystamy z tabletów i tablic interaktywnych. Organizujemy lekcje tematyczne, których efekty można obserwować na naszej stronie <a href="{{ site.facebook }}" rel="noopener">Facebook</a>.</p></li>
+    </ul>
+    <div class="dlaczego__obrazy">
+      <img src="/img/cambridge.webp" alt="We prepare for Cambridge English Qualifications" width="345" height="191" loading="lazy">
+      <img src="/img/dzieci-flaga.webp" alt="Dzieci w kręgu wokół brytyjskiej flagi" width="800" height="656" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="sekcja sekcja--ciasna">
+  <header class="tytul-sekcji"><h2>Aktualności</h2></header>
+  <div class="wpisy">
+  {%- set poziom = "h3" %}
+  {%- for w in collections.wpisy | limit(6) %}
+    {% include "karta.njk" %}
+  {%- endfor %}
+  </div>
+  <div class="srodek"><a class="przycisk przycisk--kontur" href="/aktualnosci/">Wszystkie aktualności</a></div>
+</section>

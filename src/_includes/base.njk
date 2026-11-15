@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- set tytulStrony = (title + " – Big Ben Kutno") if title and page.url != "/" else site.nazwa + " – Kutno" %}
+{%- set opisStrony = opis or site.opis %}
+<title>{{ tytulStrony }}</title>
+<meta name="description" content="{{ opisStrony }}">
+<link rel="canonical" href="{{ page.url | absolutny }}">
+<meta property="og:type" content="{{ 'article' if layout == 'post.njk' else 'website' }}">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="{{ site.nazwa }}">
+<meta property="og:title" content="{{ tytulStrony }}">
+<meta property="og:description" content="{{ opisStrony }}">
+<meta property="og:url" content="{{ page.url | absolutny }}">
+<meta property="og:image" content="{{ (obraz | media) if obraz else ('/img/baner-zapisy.webp' | absolutny) }}">
+<link rel="preload" href="/fonts/lato-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/roboto-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/style.css">
+<link rel="icon" href="/img/ikona.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LanguageSchool","name":"{{ site.nazwaPelna }}","url":"{{ site.url }}","telephone":"{{ site.telefon }}","email":"{{ site.email }}","image":"{{ '/img/logo.webp' | absolutny }}","address":{"@type":"PostalAddress","streetAddress":"{{ site.ulica }}","postalCode":"{{ site.kod }}","addressLocality":"{{ site.miasto }}","addressCountry":"PL"},"sameAs":["{{ site.facebook }}","{{ site.youtube }}"]}
+</script>
+</head>
+<body>
+<a class="pomin" href="#tresc">Przejdź do treści</a>
+<div class="strona">
+<header class="naglowek">
+  <a class="logo" href="/" aria-label="Big Ben – strona główna"><img src="/img/logo.webp" alt="bigben" width="363" height="120"></a>
+  <button class="menu-przelacznik" type="button" aria-expanded="false" aria-controls="nawigacja" aria-label="Menu">
+    <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+  </button>
+  <nav class="nawigacja" id="nawigacja" aria-label="Menu główne">
+    <ul class="menu">
+    {%- for p in site.menu %}
+      <li><a href="{{ p.url }}"{% if page.url == p.url %} aria-current="page"{% elif p.url != "/" and page.url.startsWith(p.url) %} class="aktywny"{% endif %}>{{ p.nazwa }}</a>
+      {%- if p.podmenu == "kursy" %}
+        <ul class="podmenu">
+        {%- for k in collections.kursy %}
+          <li><a href="{{ k.url }}">{{ k.data.wMenu or k.data.title }}</a></li>
+        {%- endfor %}
+        </ul>
+      {%- endif %}</li>
+    {%- endfor %}
+    </ul>
+  </nav>
+  <a class="przycisk przycisk--duzy" href="/zapisy/">{{ site.zapisyEtykieta }}</a>
+</header>
+<main id="tresc">
+{{ content | safe }}
+</main>
+{%- if mapa %}
+<section class="mapa" aria-label="Dojazd">
+  <div class="mapa__ramka" data-mapa="{{ site.mapaEmbed }}">
+    <div class="mapa__karta">
+      <strong>BigBen – Prywatna Szkoła Języków Obcych</strong>
+      <span>{{ site.ulica }}, {{ site.kod }} {{ site.miasto }}</span>
+      <a href="{{ site.mapaLink }}" rel="noopener">Otwórz w Mapach Google</a>
+    </div>
+    <button class="przycisk przycisk--duzy" type="button">Pokaż mapę</button>
+  </div>
+</section>
+{%- endif %}
+<footer class="stopka">
+  <address>
+    <strong>{{ site.nazwaPelna }}</strong>
+    <span>{{ site.ulica }}, {{ site.kod }} {{ site.miasto }}</span>
+    <a href="tel:{{ site.telefonLink }}">tel. {{ site.telefon }}</a>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </address>
+  <nav aria-label="Dokumenty">
+    <strong>Dokumenty</strong>
+    {%- for d in site.dokumenty %}
+    <a href="{{ d.url }}">{{ d.nazwa }}</a>
+    {%- endfor %}
+  </nav>
+  <nav aria-label="Media społecznościowe">
+    <strong>Znajdź nas</strong>
+    <a href="{{ site.facebook }}" rel="noopener">Facebook</a>
+    <a href="{{ site.youtube }}" rel="noopener">YouTube</a>
+  </nav>
+</footer>
+</div>
+<script src="/js/site.js" defer></script>
+</body>
+</html>

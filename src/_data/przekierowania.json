@@ -1,0 +1,346 @@
+[
+ {
+  "z": "/mini-club-dzieci-3-5-letnie/",
+  "do": "/kursy/mini-club-3-5-lat/"
+ },
+ {
+  "z": "/dzieci-6-7-letnie/",
+  "do": "/kursy/kids-6-9-lat/"
+ },
+ {
+  "z": "/big-ben-juniors-czyli-kursy-jez-angielskiego-dla-dzieci-8-12-letnich/",
+  "do": "/kursy/juniors-10-12-lat/"
+ },
+ {
+  "z": "/big-ben-teens-and-adults-czyli-kursy-dla-mlodziezy-i-doroslych/",
+  "do": "/kursy/teens-13-18-lat/"
+ },
+ {
+  "z": "/kursy-przygotowujace-do-matury/",
+  "do": "/kursy/kurs-maturalny/"
+ },
+ {
+  "z": "/kursy-vip/",
+  "do": "/kursy/dorosli-kurs-standardowy/"
+ },
+ {
+  "z": "/konwersacje/",
+  "do": "/kursy/chitchat/"
+ },
+ {
+  "z": "/szkolenia-dla-firm/",
+  "do": "/kursy/szkolenia-dla-firm/"
+ },
+ {
+  "z": "/a1-movers/",
+  "do": "/kursy/cambridge-young-learners/"
+ },
+ {
+  "z": "/a2-flyers/",
+  "do": "/kursy/cambridge-a2-key/"
+ },
+ {
+  "z": "/kurs-pre-a1-starters/",
+  "do": "/kursy/cambridge-b1-preliminary/"
+ },
+ {
+  "z": "/kursy-jezyka-angielskiego-przygotowujace-do-fce/",
+  "do": "/kursy/cambridge-b2-first/"
+ },
+ {
+  "z": "/kurs-przygotowujace-do-egzaminu-miedzynarodowego-ielts/",
+  "do": "/kursy/cambridge-c1-advanced/"
+ },
+ {
+  "z": "/zapisy26/",
+  "do": "/zapisy/"
+ },
+ {
+  "z": "/zapisy-kursy-stacjonarne/",
+  "do": "/zapisy/"
+ },
+ {
+  "z": "/deklaracja/",
+  "do": "/zapisy/"
+ },
+ {
+  "z": "/smart/",
+  "do": "/events/"
+ },
+ {
+  "z": "/lato23/",
+  "do": "/events/"
+ },
+ {
+  "z": "/zapisy24/",
+  "do": "/events/"
+ },
+ {
+  "z": "/ksiegarnia/",
+  "do": "/podreczniki/"
+ },
+ {
+  "z": "/covid-19/",
+  "do": "/aktualnosci/"
+ },
+ {
+  "z": "/komunikat/",
+  "do": "/aktualnosci/"
+ },
+ {
+  "z": "/wakacje-2019/",
+  "do": "/aktualnosci/"
+ },
+ {
+  "z": "/2026/11/06/london-2027/",
+  "do": "/aktualnosci/london-2027/"
+ },
+ {
+  "z": "/2026/10/08/join-us-on-a-mission-to-succeed/",
+  "do": "/aktualnosci/join-us-on-a-mission-to-succeed/"
+ },
+ {
+  "z": "/2026/08/29/sprzedaz-podrecznikow/",
+  "do": "/aktualnosci/sprzedaz-podrecznikow/"
+ },
+ {
+  "z": "/2026/08/28/jak-oplacic-kurs/",
+  "do": "/aktualnosci/jak-oplacic-kurs/"
+ },
+ {
+  "z": "/2026/08/28/kurs-stacjonarny-czy-online/",
+  "do": "/aktualnosci/kurs-stacjonarny-czy-online/"
+ },
+ {
+  "z": "/2026/08/27/jaki-kurs-wybrac/",
+  "do": "/aktualnosci/jaki-kurs-wybrac/"
+ },
+ {
+  "z": "/2026/08/27/jak-sie-zapisac/",
+  "do": "/aktualnosci/jak-sie-zapisac/"
+ },
+ {
+  "z": "/2026/08/22/jaki-poziom-kursu/",
+  "do": "/aktualnosci/jaki-poziom-kursu/"
+ },
+ {
+  "z": "/2026/05/22/2560/",
+  "do": "/aktualnosci/2560/"
+ },
+ {
+  "z": "/2026/05/22/summer-chitchat-online/",
+  "do": "/aktualnosci/summer-chitchat-online/"
+ },
+ {
+  "z": "/2026/03/02/2542/",
+  "do": "/aktualnosci/2542/"
+ },
+ {
+  "z": "/2025/08/21/cambridge-english-dla-dzieci-mlodziezy-i-doroslych/",
+  "do": "/aktualnosci/cambridge-english-dla-dzieci-mlodziezy-i-doroslych/"
+ },
+ {
+  "z": "/2025/07/07/kurs-jezykowy-czy-apka-w-telefonie/",
+  "do": "/aktualnosci/kurs-jezykowy-czy-apka-w-telefonie/"
+ },
+ {
+  "z": "/2025/06/15/to-angielski-plaza-i-mnostwo-aktywnej-zabawy-dla-mlodziezy-w-wieku/",
+  "do": "/aktualnosci/to-angielski-plaza-i-mnostwo-aktywnej-zabawy-dla-mlodziezy-w-wieku/"
+ },
+ {
+  "z": "/2025/06/15/chitchat-kurs-konwersacyjny-dla-doroslych-i-mlodziezy/",
+  "do": "/aktualnosci/chitchat-kurs-konwersacyjny-dla-doroslych-i-mlodziezy/"
+ },
+ {
+  "z": "/2025/03/06/big-english-challenge/",
+  "do": "/aktualnosci/big-english-challenge/"
+ },
+ {
+  "z": "/2024/10/03/certyfikat-cambridge-english/",
+  "do": "/aktualnosci/certyfikat-cambridge-english/"
+ },
+ {
+  "z": "/2024/06/07/summer-camp-2024/",
+  "do": "/aktualnosci/summer-camp-2024/"
+ },
+ {
+  "z": "/2024/04/29/2024/",
+  "do": "/aktualnosci/2024/"
+ },
+ {
+  "z": "/2023/08/28/chitchat/",
+  "do": "/aktualnosci/chitchat/"
+ },
+ {
+  "z": "/2023/05/05/program-dnia-the-royal-weekend/",
+  "do": "/aktualnosci/program-dnia-the-royal-weekend/"
+ },
+ {
+  "z": "/2023/03/30/british-icons/",
+  "do": "/aktualnosci/british-icons/"
+ },
+ {
+  "z": "/2023/03/30/the-royal-weekend/",
+  "do": "/aktualnosci/the-royal-weekend/"
+ },
+ {
+  "z": "/2023/01/30/winter-greetings/",
+  "do": "/aktualnosci/winter-greetings/"
+ },
+ {
+  "z": "/2023/01/14/london-must-see/",
+  "do": "/aktualnosci/london-must-see/"
+ },
+ {
+  "z": "/2022/05/06/smart-summer/",
+  "do": "/aktualnosci/smart-summer/"
+ },
+ {
+  "z": "/2022/04/21/enjoy-england/",
+  "do": "/aktualnosci/enjoy-england/"
+ },
+ {
+  "z": "/2022/01/19/winter-with-native-speakers/",
+  "do": "/aktualnosci/winter-with-native-speakers/"
+ },
+ {
+  "z": "/2021/12/02/podlaczenie-online-do-zdjec-stacjonarnych/",
+  "do": "/aktualnosci/podlaczenie-online-do-zdjec-stacjonarnych/"
+ },
+ {
+  "z": "/2021/10/18/cambridge-english-exams/",
+  "do": "/aktualnosci/cambridge-english-exams/"
+ },
+ {
+  "z": "/2021/08/22/brawo/",
+  "do": "/aktualnosci/brawo/"
+ },
+ {
+  "z": "/2021/08/03/zapisy-2021-2022/",
+  "do": "/aktualnosci/zapisy-2021-2022/"
+ },
+ {
+  "z": "/2021/06/05/summer-with-native-speakers/",
+  "do": "/aktualnosci/summer-with-native-speakers/"
+ },
+ {
+  "z": "/2021/05/28/grafik-zajec-od-31-maja-2021/",
+  "do": "/aktualnosci/grafik-zajec-od-31-maja-2021/"
+ },
+ {
+  "z": "/2021/05/23/grafik-zajec-na-tydzien-24-28-maja-2021/",
+  "do": "/aktualnosci/grafik-zajec-na-tydzien-24-28-maja-2021/"
+ },
+ {
+  "z": "/2021/05/16/zajecia-stacjonarne-dla-grup-juniors-i-teens/",
+  "do": "/aktualnosci/zajecia-stacjonarne-dla-grup-juniors-i-teens/"
+ },
+ {
+  "z": "/2021/05/03/2010/",
+  "do": "/aktualnosci/2010/"
+ },
+ {
+  "z": "/2021/05/01/cambridge-english-qualifications/",
+  "do": "/aktualnosci/cambridge-english-qualifications/"
+ },
+ {
+  "z": "/2020/08/31/back-to-school/",
+  "do": "/aktualnosci/back-to-school/"
+ },
+ {
+  "z": "/2020/07/28/zapisy-2020/",
+  "do": "/aktualnosci/zapisy-2020/"
+ },
+ {
+  "z": "/2020/03/11/koronawirus/",
+  "do": "/aktualnosci/koronawirus/"
+ },
+ {
+  "z": "/2020/03/06/big-english-2020/",
+  "do": "/aktualnosci/big-english-2020/"
+ },
+ {
+  "z": "/2020/02/08/wakacje-2019/",
+  "do": "/aktualnosci/wakacje-2019/"
+ },
+ {
+  "z": "/2019/08/21/cambridge-english-young-learners/",
+  "do": "/aktualnosci/cambridge-english-young-learners/"
+ },
+ {
+  "z": "/2019/04/09/1715/",
+  "do": "/aktualnosci/1715/"
+ },
+ {
+  "z": "/2018/10/28/cambridge-english-young-learners-2/",
+  "do": "/aktualnosci/cambridge-english-young-learners-2/"
+ },
+ {
+  "z": "/2018/08/16/goodbye-england/",
+  "do": "/aktualnosci/goodbye-england/"
+ },
+ {
+  "z": "/2018/04/17/londyn-i-miasta-uniwersyteckie-w-anglii/",
+  "do": "/aktualnosci/londyn-i-miasta-uniwersyteckie-w-anglii/"
+ },
+ {
+  "z": "/2018/03/23/dlaczego-wakacje-z-big-benem/",
+  "do": "/aktualnosci/dlaczego-wakacje-z-big-benem/"
+ },
+ {
+  "z": "/2018/03/01/harrogate2018/",
+  "do": "/aktualnosci/harrogate2018/"
+ },
+ {
+  "z": "/2018/02/26/young-learners-english/",
+  "do": "/aktualnosci/young-learners-english/"
+ },
+ {
+  "z": "/2018/02/02/egzamin-ielts/",
+  "do": "/aktualnosci/egzamin-ielts/"
+ },
+ {
+  "z": "/2018/01/24/the-fce-exam-results/",
+  "do": "/aktualnosci/the-fce-exam-results/"
+ },
+ {
+  "z": "/2017/02/24/london-and-uk-universities-2017/",
+  "do": "/aktualnosci/london-and-uk-universities-2017/"
+ },
+ {
+  "z": "/2017/02/21/summer-2016-brighton-and-london/",
+  "do": "/aktualnosci/summer-2016-brighton-and-london/"
+ },
+ {
+  "z": "/2015/02/01/malta-oboz-z-nauka-jezyka-angielskiego/",
+  "do": "/aktualnosci/malta-oboz-z-nauka-jezyka-angielskiego/"
+ },
+ {
+  "z": "/2014/02/09/londyn-2014/",
+  "do": "/aktualnosci/londyn-2014/"
+ },
+ {
+  "z": "/2013/03/09/wakacje-z-big-benem-2013/",
+  "do": "/aktualnosci/wakacje-z-big-benem-2013/"
+ },
+ {
+  "z": "/2013/03/03/darlowo-1012/",
+  "do": "/aktualnosci/darlowo-1012/"
+ },
+ {
+  "z": "/zapisy2/",
+  "do": "/zapisy/"
+ },
+ {
+  "z": "/zapisy24-2/",
+  "do": "/events/"
+ },
+ {
+  "z": "/zapisy-2020/",
+  "do": "/zapisy/"
+ },
+ {
+  "z": "/zapisy-2021/",
+  "do": "/zapisy/"
+ }
+]

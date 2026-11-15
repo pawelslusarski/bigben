@@ -1,0 +1,40 @@
+# Buduje stronę i wysyła ją na serwer home.pl po każdej zmianie w gałęzi main.
+# Wymagane sekrety repozytorium (Settings → Secrets and variables → Actions):
+#   FTP_SERVER   – adres serwera FTP home.pl
+#   FTP_USERNAME – login FTP
+#   FTP_PASSWORD – hasło FTP
+#   FTP_DIR      – katalog docelowy na serwerze, zakończony ukośnikiem, np. /public_html/test/
+name: Publikacja strony
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: publikacja
+  cancel-in-progress: true
+jobs:
+  publikacja:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      # Dopóki sekrety FTP nie są ustawione, strona tylko się buduje (bez wysyłki).
+      - name: Wysyłka przez FTPS
+        if: env.FTP_SERVER != ''
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./_site/
+          server-dir: ${{ secrets.FTP_DIR }}

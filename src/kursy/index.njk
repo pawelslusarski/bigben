@@ -1,0 +1,28 @@
+---
+layout: base.njk
+title: Kursy
+opis: Kursy języka angielskiego w Big Ben Kutno – dla dzieci, młodzieży i dorosłych, egzaminy Cambridge, szkolenia dla firm.
+permalink: /kursy/
+grupy:
+  - { id: dzieci, nazwa: Dzieci }
+  - { id: mlodziez, nazwa: Młodzież }
+  - { id: dorosli, nazwa: Dorośli i firmy }
+  - { id: cambridge, nazwa: Egzaminy Cambridge }
+---
+<section class="sekcja">
+  <header class="tytul-sekcji"><h1>Kursy</h1></header>
+  {%- for g in grupy %}
+  <div class="kursy-grupa" id="{{ g.id }}">
+    <h2>{{ g.nazwa }}</h2>
+    <ul class="kursy-lista">
+    {%- for k in collections.kursy %}{% if k.data.grupa == g.id %}
+      <li><a href="{{ k.url }}"><strong>{{ k.data.wMenu or k.data.title }}</strong></a></li>
+    {%- endif %}{% endfor %}
+    </ul>
+  </div>
+  {%- endfor %}
+  <aside class="wezwanie">
+    <p>Nie wiesz, który kurs wybrać? Pierwszy tydzień nauki jest bezpłatny.</p>
+    <a class="przycisk przycisk--duzy" href="/zapisy/">Zapisz się</a>
+  </aside>
+</section>
