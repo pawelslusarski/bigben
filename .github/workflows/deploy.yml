@@ -1,6 +1,6 @@
 # Buduje stronę i wysyła ją na serwer home.pl po każdej zmianie w gałęzi main.
 # Wymagane sekrety repozytorium (Settings → Secrets and variables → Actions):
-#   FTP_SERVER   – adres serwera FTP home.pl
+#   FTP_SERVER   – dokładna nazwa serwera FTP z panelu home.pl (nie nazwa domeny strony)
 #   FTP_USERNAME – login FTP
 #   FTP_PASSWORD – hasło FTP
 #   FTP_DIR      – katalog docelowy na serwerze, zakończony ukośnikiem, np. /public_html/test/
@@ -30,11 +30,15 @@ jobs:
         if: env.FTP_SERVER != ''
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        # Akcja przypięta do niezmiennego wydania v4.3.5
+        uses: SamKirkland/FTP-Deploy-Action@8e83cea8672e3fbcbb9fdafff34debf6ae4c5f65
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          # Wymuszone szyfrowanie (FTPS) ze ścisłym sprawdzaniem certyfikatu serwera.
+          # FTP_SERVER musi być dokładną nazwą serwera z panelu home.pl.
           protocol: ftps
+          security: strict
           local-dir: ./_site/
           server-dir: ${{ secrets.FTP_DIR }}
