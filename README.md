@@ -69,7 +69,11 @@ Nowy rok zapisów: w `site.json` zmień `zapisyEtykieta` i ewentualnie `formular
 
 Plik `.github/workflows/deploy.yml` buduje stronę i wysyła folder `_site/` przez FTPS na serwer po każdej zmianie w gałęzi `main`. W ustawieniach repozytorium trzeba dodać cztery sekrety: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`, `FTP_DIR`.
 
-Na czas testów `FTP_DIR` powinien wskazywać katalog domeny testowej, a w `site.json` warto tymczasowo ustawić `url` na adres testowy.
+### Wersja testowa a właściwa
+
+Teraz strona jest ustawiona jako testowa pod adresem `https://icloudman.pl`: w `src/_data/site.json` jest `"url": "https://icloudman.pl"` i `"wersjaTestowa": true`. Dopóki `wersjaTestowa` ma wartość `true`, strona prosi wyszukiwarki, żeby jej nie indeksowały (znacznik `noindex` i blokada w `robots.txt`).
+
+Przy przenosinach na właściwą domenę: ustaw `"url": "https://bigben.edu.pl"`, `"wersjaTestowa": false` i zmień sekret `FTP_DIR` na katalog właściwej domeny.
 
 Plik `.htaccess` jest generowany przy budowaniu (z `src/htaccess.njk`): wymusza HTTPS, ustawia nagłówki bezpieczeństwa i pamięć podręczną oraz przekierowuje stare adresy WordPressa na nowe (kod 301).
 

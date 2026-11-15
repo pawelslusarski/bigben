@@ -7,6 +7,9 @@
 {%- set opisStrony = opis or site.opis %}
 <title>{{ tytulStrony }}</title>
 <meta name="description" content="{{ opisStrony }}">
+{%- if site.wersjaTestowa %}
+<meta name="robots" content="noindex, nofollow">
+{%- endif %}
 <link rel="canonical" href="{{ page.url | absolutny }}">
 <meta property="og:type" content="{{ 'article' if layout == 'post.njk' else 'website' }}">
 <meta property="og:locale" content="pl_PL">
