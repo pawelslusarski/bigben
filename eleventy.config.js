@@ -4,6 +4,8 @@ const site = JSON.parse(fs.readFileSync("./src/_data/site.json", "utf8"));
 const MONTHS = ["stycznia","lutego","marca","kwietnia","maja","czerwca","lipca","sierpnia","września","października","listopada","grudnia"];
 
 export default function (eleventyConfig) {
+  // Znacznik wersji doklejany do adresów CSS i JS, żeby przeglądarki pobierały je od nowa po każdej publikacji
+  eleventyConfig.addGlobalData("wersja", Date.now().toString(36));
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/fonts");

@@ -20,7 +20,7 @@
 <meta property="og:image" content="{{ (obraz | media) if obraz else ('/img/baner-zapisy.webp' | absolutny) }}">
 <link rel="preload" href="/fonts/lato-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/roboto-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/style.css?v={{ wersja }}">
 <link rel="icon" href="/img/ikona.svg" type="image/svg+xml">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"LanguageSchool","name":"{{ site.nazwaPelna }}","url":"{{ site.url }}","telephone":"{{ site.telefon }}","email":"{{ site.email }}","image":"{{ '/img/logo.webp' | absolutny }}","address":{"@type":"PostalAddress","streetAddress":"{{ site.ulica }}","postalCode":"{{ site.kod }}","addressLocality":"{{ site.miasto }}","addressCountry":"PL"},"sameAs":["{{ site.facebook }}","{{ site.youtube }}"]}
@@ -80,6 +80,6 @@
   </nav>
 </footer>
 </div>
-<script src="/js/site.js" defer></script>
+<script src="/js/site.js?v={{ wersja }}" defer></script>
 </body>
 </html>
