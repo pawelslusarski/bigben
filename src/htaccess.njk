@@ -7,6 +7,10 @@ eleventyExcludeFromCollections: true
 # a dyrektywy Redirect/RedirectMatch są ignorowane.
 ErrorDocument 404 /404.html
 
+# Serwer home.pl nie zna formatu WebP i bez tego wysyła zdjęcia jako plik do pobrania
+AddType image/webp .webp
+AddType image/heic .heic
+
 RewriteEngine On
 
 # Zawsze HTTPS
