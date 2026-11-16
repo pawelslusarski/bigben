@@ -159,7 +159,7 @@ main{flex:1}
   .menu-przelacznik{display:block;order:3}
   .naglowek>.przycisk{order:2;margin-left:auto}
   .nawigacja{order:4;flex-basis:100%;display:none}
-  .nawigacja[data-otwarte]{display:block}
+  .nawigacja[data-otwarte]{display:block;max-height:calc(100vh - 90px);max-height:calc(100dvh - 90px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
   .menu{flex-direction:column;align-items:stretch;gap:0;padding-bottom:8px}
   .menu a{padding:13px 4px;border-bottom:1px solid var(--linia)}
   .menu a[aria-current="page"],.menu a.aktywny{border-bottom-color:var(--linia);color:var(--czerwony-ciemny)}
