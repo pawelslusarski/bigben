@@ -21,6 +21,9 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
+# Typ plików WebP (serwer home.pl ignoruje AddType)
+RewriteRule \.webp$ - [T=image/webp]
+
 # Pozostałości po WordPressie: nic tu już nie ma
 RewriteRule ^(wp-login\.php|xmlrpc\.php|wp-admin|wp-json|wp-includes) - [F,L]
 
