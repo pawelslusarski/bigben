@@ -25,6 +25,19 @@ RewriteRule ^(wp-login\.php|xmlrpc\.php|wp-admin|wp-json|wp-includes) - [F,L]
 RewriteRule ^{{ p.z | replace("/", "", 1) | replace(".", "\\.") }}?$ {{ p.do }} [R=301,L]
 {%- endfor %}
 
+# Stare pliki WordPressa (wp-content/uploads) leżą teraz w /media: zdjęcia jako WebP w jednym rozmiarze,
+# pozostałe pliki (PDF, film) pod tą samą nazwą. Listę plików uzupełnia tools/pobierz-uploads.mjs.
+RewriteRule ^wp-content/uploads/(.+)-[0-9]+x[0-9]+\.(jpe?g|png)$ /media/$1.webp [NC,R=301,L]
+RewriteRule ^wp-content/uploads/(.+)\.(jpe?g|png)$ /media/$1.webp [NC,R=301,L]
+RewriteRule ^wp-content/uploads/(.+)$ /media/$1 [R=301,L]
+
+# Pozostałe stare adresy WordPressa: kanał RSS, kategorie, tagi, archiwa, nieznane wpisy
+RewriteRule ^(comments/)?feed/?$ /aktualnosci/ [R=301,L]
+RewriteRule ^(category|tag|author)/ /aktualnosci/ [R=301,L]
+RewriteRule ^page/[0-9]+/?$ /aktualnosci/ [R=301,L]
+RewriteRule ^[0-9]{4}/([0-9]{2}/)?([0-9]{2}/)?(.+/)?$ /aktualnosci/ [R=301,L]
+RewriteRule ^index\.php$ / [R=301,L]
+
 # Nagłówki. Serwer home.pl stosuje je do wszystkich plików (nie rozróżnia typów przez FilesMatch),
 # dlatego pamięć podręczna jest krótka: zmiany na stronie widać najpóźniej po 5 minutach.
 Header set Cache-Control "public, max-age=300"

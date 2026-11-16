@@ -1,0 +1,28 @@
+# Jednorazowy import: pobiera ze starego WordPressa brakujące pliki z wp-content/uploads do src/media
+# i zapisuje je w repozytorium. Uruchamiany ręcznie (Actions → Import zdjęć → Run workflow),
+# dopóki stara strona jeszcze działa.
+name: Import zdjęć ze starej strony
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: import-zdjec
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm i --no-save sharp
+      - run: node tools/pobierz-uploads.mjs
+      - name: Zapis w repozytorium
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/media tools/stare-uploads.json
+          git diff --cached --quiet || git commit -m "Import brakujących plików ze starego wp-content/uploads"
+          git push
