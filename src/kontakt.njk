@@ -8,7 +8,7 @@ mapa: true
 <section class="sekcja">
   <header class="tytul-sekcji"><h1>Kontakt</h1></header>
   <div class="kontakt">
-    <div><h2>Adres</h2><p>{{ site.nazwaPelna | replace("Big Ben", "<strong>Big&nbsp;Ben</strong>") | safe }}<br>{{ site.ulica }}<br>{{ site.kod }} {{ site.miasto }}</p></div>
+    <div><h2>Adres</h2><p>{{ site.nazwaPelna | replace("Big Ben", "<strong>„Big&nbsp;Ben”</strong>") | safe }}<br>{{ site.ulica }}<br>{{ site.kod }} {{ site.miasto }}</p></div>
     <div><h2>Telefon</h2><p><a href="tel:{{ site.telefonLink }}">{{ site.telefon }}</a></p></div>
     <div><h2>E-mail</h2><p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p></div>
   </div>
