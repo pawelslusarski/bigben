@@ -130,7 +130,7 @@ main{flex:1}
 .kursy-lista span{color:var(--tekst-szary);font-size:15px}
 
 /* Kontakt i mapa */
-.kontakt{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px}
+.kontakt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:28px}
 .kontakt div{padding:24px 26px;background:var(--tlo-karty);border-radius:6px}
 .kontakt h2{margin:0 0 8px;font:700 14px/1.3 Roboto,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--tekst-szary)}
 .kontakt p{margin:0;font-size:18px}
@@ -150,6 +150,7 @@ main{flex:1}
 .stopka a:hover{color:#fff}
 
 @media (max-width:900px){
+  .kontakt{grid-template-columns:1fr}
   .naglowek{padding:10px 16px;gap:8px 10px}
   .logo img{height:40px}
   .naglowek>.przycisk{padding:11px 14px}
