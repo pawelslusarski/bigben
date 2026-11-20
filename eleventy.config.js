@@ -11,6 +11,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/media");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/apple-touch-icon.png");
 
   // Adres zdjęcia z folderu src/media: {{ "2026/11/plik.jpg" | media }}
   eleventyConfig.addFilter("media", (p) => (p ? `${site.media}/${String(p).replace(/^\/+/, "")}` : ""));

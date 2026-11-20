@@ -23,6 +23,7 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 # Typ plików WebP (serwer home.pl ignoruje AddType)
 RewriteRule \.webp$ - [T=image/webp]
+RewriteRule \.ico$ - [T=image/x-icon]
 
 # Pozostałości po WordPressie: nic tu już nie ma
 RewriteRule ^(wp-login\.php|xmlrpc\.php|wp-admin|wp-json|wp-includes) - [F,L]
